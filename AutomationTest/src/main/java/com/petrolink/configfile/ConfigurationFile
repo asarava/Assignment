@@ -1,0 +1,5 @@
+URL = https://www.petrolink.com/
+browser = chrome
+chromedriver = C:\\Users\\samsung\\Desktop\\Selenium\\chromedriver_win32\\chromedriver.exe
+firefoxdriver = C:\\Users\\samsung\Desktop\\Selenium\\geckodriver.exe
+inputdata = C:\\Users\\samsung\\Desktop\\New folder\\inputdata.xlsx

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="200033" started-at="2018-09-23T22:56:11Z" finished-at="2018-09-23T22:59:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="200033" started-at="2018-09-23T22:56:11Z" finished-at="2018-09-23T22:59:31Z">
+      <class name="com.petrolink.testcase.TestScenarios">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="setUp" is-config="true" duration-ms="13114" started-at="2018-09-23T22:56:12Z" finished-at="2018-09-23T22:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigationWordExistence(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="navigationWordExistence" duration-ms="6747" started-at="2018-09-23T22:56:25Z" data-provider="menuTextPass" finished-at="2018-09-23T22:56:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Products & Services]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Real-Time Solution]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[The power of remote real-time monitoring]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationWordExistence -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="tearDown" is-config="true" duration-ms="868" started-at="2018-09-23T22:56:32Z" finished-at="2018-09-23T22:56:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="setUp" is-config="true" duration-ms="10638" started-at="2018-09-23T22:56:33Z" finished-at="2018-09-23T22:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigationWordExistence(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="navigationWordExistence" duration-ms="4550" started-at="2018-09-23T22:56:44Z" data-provider="menuTextPass" finished-at="2018-09-23T22:56:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Solutions for]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Service Companies]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Providing access to operator information]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationWordExistence -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="tearDown" is-config="true" duration-ms="759" started-at="2018-09-23T22:56:48Z" finished-at="2018-09-23T22:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="setUp" is-config="true" duration-ms="10849" started-at="2018-09-23T22:56:49Z" finished-at="2018-09-23T22:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigationWordExistence(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="navigationWordExistence" duration-ms="16800" started-at="2018-09-23T22:57:00Z" data-provider="menuTextPass" finished-at="2018-09-23T22:57:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[About Us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Corporate Profile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Total well integration from a single source]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationWordExistence -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="tearDown" is-config="true" duration-ms="748" started-at="2018-09-23T22:57:16Z" finished-at="2018-09-23T22:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="setUp" is-config="true" duration-ms="10492" started-at="2018-09-23T22:57:17Z" finished-at="2018-09-23T22:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="navigationWordNonExistence(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="navigationWordNonExistence" duration-ms="7143" started-at="2018-09-23T22:57:28Z" data-provider="menuTextFail" finished-at="2018-09-23T22:57:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Products & Services]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Real-Time Solution]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Saravanan]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.petrolink.testcase.TestScenarios.navigationWordNonExistence(TestScenarios.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationWordNonExistence -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="tearDown" is-config="true" duration-ms="917" started-at="2018-09-23T22:57:35Z" finished-at="2018-09-23T22:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="setUp" is-config="true" duration-ms="10573" started-at="2018-09-23T22:57:36Z" finished-at="2018-09-23T22:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="navigationWordNonExistence(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="navigationWordNonExistence" duration-ms="16282" started-at="2018-09-23T22:57:47Z" data-provider="menuTextFail" finished-at="2018-09-23T22:58:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Solutions for]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Service Companies]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Saravanan]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.petrolink.testcase.TestScenarios.navigationWordNonExistence(TestScenarios.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationWordNonExistence -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="tearDown" is-config="true" duration-ms="758" started-at="2018-09-23T22:58:03Z" finished-at="2018-09-23T22:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="setUp" is-config="true" duration-ms="11539" started-at="2018-09-23T22:58:04Z" finished-at="2018-09-23T22:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="navigationWordNonExistence(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="navigationWordNonExistence" duration-ms="17854" started-at="2018-09-23T22:58:15Z" data-provider="menuTextFail" finished-at="2018-09-23T22:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[About Us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Corporate Profile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Saravanan]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.petrolink.testcase.TestScenarios.navigationWordNonExistence(TestScenarios.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationWordNonExistence -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="tearDown" is-config="true" duration-ms="775" started-at="2018-09-23T22:58:33Z" finished-at="2018-09-23T22:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="setUp" is-config="true" duration-ms="11034" started-at="2018-09-23T22:58:34Z" finished-at="2018-09-23T22:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchWebsiteNavigate(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="searchWebsiteNavigate" duration-ms="7918" started-at="2018-09-23T22:58:45Z" data-provider="searchToNavigate" finished-at="2018-09-23T22:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Data Managers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Search Results for: Data Managers]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Software Development Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWebsiteNavigate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="tearDown" is-config="true" duration-ms="781" started-at="2018-09-23T22:58:53Z" finished-at="2018-09-23T22:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="setUp" is-config="true" duration-ms="11186" started-at="2018-09-23T22:58:54Z" finished-at="2018-09-23T22:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="textSearchWebsite(java.lang.String, java.lang.String)[pri:4, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="textSearchWebsite" duration-ms="3826" started-at="2018-09-23T22:59:05Z" data-provider="searchText" finished-at="2018-09-23T22:59:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Commodity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Search Results for: Commodity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textSearchWebsite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="tearDown" is-config="true" duration-ms="821" started-at="2018-09-23T22:59:09Z" finished-at="2018-09-23T22:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="setUp" is-config="true" duration-ms="12424" started-at="2018-09-23T22:59:09Z" finished-at="2018-09-23T22:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="changeLanguage()[pri:5, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="changeLanguage" duration-ms="7872" started-at="2018-09-23T22:59:22Z" finished-at="2018-09-23T22:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeLanguage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.petrolink.testcase.TestScenarios@6093dd95]" name="tearDown" is-config="true" duration-ms="787" started-at="2018-09-23T22:59:30Z" finished-at="2018-09-23T22:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.petrolink.testcase.TestScenarios -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
